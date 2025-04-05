@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading">
+        <img src="https://assets.nflxext.com/en_us/pages/wiplayer/site-spinner.png" alt="Loading..." class="loading-logo">
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-wrapper">
+                <img src="assets/images/netflix-logo.svg" alt="Netflix Logo" class="logo">
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">New & Popular</a>
+                <a href="#">My List</a>
+                <a href="#">Browse by Languages</a>
+            </div>
+            <div class="nav-right">
+                <i class="fas fa-search"></i>
+                <a href="#" class="kids">Kids</a>
+                <i class="fas fa-bell"></i>
+                <div class="profile-dropdown">
+                    <img src="https://occ-0-2186-1007.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABbme8JMz4rEKFJhtzpOKWFJ_6qX-0y5wwWyYvBhWS0VKFLa289dZ5zvRBggmFVWVPL2AAYE8xevD4jjLZjWumNo.png?r=a41" alt="Profile" class="profile-icon">
+                    <div class="dropdown-content">
+                        <a href="#"><img src="https://occ-0-2186-1007.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABbme8JMz4rEKFJhtzpOKWFJ_6qX-0y5wwWyYvBhWS0VKFLa289dZ5zvRBggmFVWVPL2AAYE8xevD4jjLZjWumNo.png?r=a41" alt="Profile 1">Profile 1</a>
+                        <a href="#"><img src="https://occ-0-2186-1007.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABbme8JMz4rEKFJhtzpOKWFJ_6qX-0y5wwWyYvBhWS0VKFLa289dZ5zvRBggmFVWVPL2AAYE8xevD4jjLZjWumNo.png?r=a41" alt="Profile 2">Profile 2</a>
+                        <a href="#" class="manage-profiles">Manage Profiles</a>
+                        <hr>
+                        <a href="#">Account</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Sign out of Netflix</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Money Heist</h1>
+                <p>Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates the police to carry out his plan.</p>
+                <div class="hero-buttons">
+                    <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    <button class="more-info-btn"><i class="fas fa-info-circle"></i> More Info</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Trending Now -->
+        <section class="movie-section">
+            <h2>Trending Now</h2>
+            <div class="movie-row">
+                <div class="movie-card">
+                    <img src="https://raw.githubusercontent.com/carlosavilae/Netflix-Clone/master/img/p1.PNG" alt="Movie">
+                </div>
+                <div class="movie-card">
+                    <img src="https://raw.githubusercontent.com/carlosavilae/Netflix-Clone/master/img/p2.PNG" alt="Movie">
+                </div>
+                <div class="movie-card">
+                    <img src="https://raw.githubusercontent.com/carlosavilae/Netflix-Clone/master/img/p3.PNG" alt="Movie">
+                </div>
+                <div class="movie-card">
+                    <img src="https://raw.githubusercontent.com/carlosavilae/Netflix-Clone/master/img/p4.PNG" alt="Movie">
+                </div>
+                <div class="movie-card">
+                    <img src="https://raw.githubusercontent.com/carlosavilae/Netflix-Clone/master/img/p5.PNG" alt="Movie">
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular on Netflix -->
+        <section class="movie-section">
+            <h2>Popular on Netflix</h2>
+            <div class="movie-row">
+                <div class="movie-card">
+                    <img src="https://raw.githubusercontent.com/carlosavilae/Netflix-Clone/master/img/t1.PNG" alt="Movie">
+                </div>
+                <div class="movie-card">
+                    <img src="https://raw.githubusercontent.com/carlosavilae/Netflix-Clone/master/img/t2.PNG" alt="Movie">
+                </div>
+                <div class="movie-card">
+                    <img src="https://raw.githubusercontent.com/carlosavilae/Netflix-Clone/master/img/t3.PNG" alt="Movie">
+                </div>
+                <div class="movie-card">
+                    <img src="https://raw.githubusercontent.com/carlosavilae/Netflix-Clone/master/img/t4.PNG" alt="Movie">
+                </div>
+                <div class="movie-card">
+                    <img src="https://raw.githubusercontent.com/carlosavilae/Netflix-Clone/master/img/t5.PNG" alt="Movie">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-links">
+                <div class="footer-row">
+                    <a href="#">Audio Description</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Legal Notices</a>
+                </div>
+                <div class="footer-row">
+                    <a href="#">Help Center</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Cookie Preferences</a>
+                </div>
+                <div class="footer-row">
+                    <a href="#">Gift Cards</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Corporate Information</a>
+                </div>
+                <div class="footer-row">
+                    <a href="#">Media Center</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+            <button class="service-code">Service Code</button>
+            <p class="copyright">&copy; 2024 Netflix Clone</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
